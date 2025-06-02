@@ -3,11 +3,11 @@
 
 #include <vector>
 
-// Интерфейс для представления ориентированного графа
+// РРЅС‚РµСЂС„РµР№СЃ РґР»СЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РѕСЂРёРµРЅС‚РёСЂРѕРІР°РЅРЅРѕРіРѕ РіСЂР°С„Р°
 struct IGraph {
 	virtual ~IGraph() {}
 
-	// Добавление ребра от from к to.
+	// Р”РѕР±Р°РІР»РµРЅРёРµ СЂРµР±СЂР° РѕС‚ from Рє to.
 	virtual void AddEdge(int from, int to) = 0;
 
 	virtual int VerticesCount() const = 0;
