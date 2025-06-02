@@ -11,6 +11,7 @@ struct Edge {
     Edge(int f, int t) : from(f), to(t) {}
 };
 
+// реализация графа в виде массива пар
 struct ArcGraph : public IGraph
 {
 public:
