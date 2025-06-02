@@ -129,12 +129,15 @@
   <ItemGroup>
     <ClCompile Include="GraphAlgorithms.cpp" />
     <ClCompile Include="ListGraph.cpp" />
-    <ClCompile Include="M3_ IGraph.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MatrixGraph.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphAlgorithms.h" />
     <ClInclude Include="IGraph.h" />
     <ClInclude Include="ListGraph.h" />
+    <ClInclude Include="MatrixGraph.h" />
+    <ClInclude Include="SetGraph.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
