@@ -127,12 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArcGraph.cpp" />
     <ClCompile Include="GraphAlgorithms.cpp" />
     <ClCompile Include="ListGraph.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MatrixGraph.cpp" />
+    <ClCompile Include="SetGraph.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArcGraph.h" />
     <ClInclude Include="GraphAlgorithms.h" />
     <ClInclude Include="IGraph.h" />
     <ClInclude Include="ListGraph.h" />

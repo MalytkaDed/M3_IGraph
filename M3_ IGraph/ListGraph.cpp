@@ -6,6 +6,7 @@ ListGraph::ListGraph(const IGraph& graph)
 {
     int size = graph.VerticesCount();
     adjacencyLists.resize(size);
+
     for (int i = 0; i < size; ++i) {
         adjacencyLists[i] = graph.GetNextVertices(i);
     }
