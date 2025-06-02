@@ -5,6 +5,7 @@
 #include <vector>
 #include <unordered_set>
 
+// реализация графа в виде массива хэш-таблиц
 struct SetGraph : public IGraph
 {
 public:
