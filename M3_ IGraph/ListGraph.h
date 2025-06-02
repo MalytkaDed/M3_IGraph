@@ -4,7 +4,7 @@
 #include "IGraph.h"
 #include <vector>
 
-// реализация графа на списках смежности
+// СЂРµР°Р»РёР·Р°С†РёСЏ РіСЂР°С„Р° РЅР° СЃРїРёСЃРєР°С… СЃРјРµР¶РЅРѕСЃС‚Рё
 struct ListGraph : public IGraph
 {
 public:
